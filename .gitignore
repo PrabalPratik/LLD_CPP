@@ -1,0 +1,27 @@
+# Compiled binaries
+Coffee_Vending_Machine
+Logging_Framework
+Parking_Lot
+Task_Management_System
+Traffic_Signal_Control_System
+Vending_Machine
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Object files and libraries
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
