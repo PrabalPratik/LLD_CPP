@@ -6,6 +6,21 @@ Parking_Lot
 Task_Management_System
 Traffic_Signal_Control_System
 Vending_Machine
+LinkedIn
+LRU_Cache
+Distributed_Notification_System
+Elevator_System
+Parking_Lot_2
+Payment_System
+Pub_Sub_System
+Rate_Limiter
+URL_Shortener
+WhatsApp
+
+# Editor / IDE / Runner Temp Files
+tempCodeRunnerFile
+tempCodeRunnerFile.cpp
+tempCodeRunnerFile*
 
 # OS generated files
 .DS_Store

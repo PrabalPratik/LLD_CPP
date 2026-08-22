@@ -166,6 +166,7 @@ public:
     }
 
     void addCoffee(Coffee* coffee) {
+        lock_guard<mutex> lock(mtx);
         coffees.push_back(coffee);
     }
 
@@ -226,6 +227,7 @@ public:
     }
 
     void dispenseCoffee(string coffeeName) {
+        lock_guard<mutex> lock(mtx);
         if (status != PREPARED) {
             cout << "Coffee is not ready." << endl;
             return;
